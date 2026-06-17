@@ -85,7 +85,7 @@ fn lifetime_in_struct2() {
         // impl のメソッドが省略規則3で &self の 'a を戻り値に引き継ぐ
         println!("part: '{}'", excerpt.part_with_note("第一文"));
     }
-    // スコープ外なのでエラー
+    // スコープ内なのでエラーにならない
     println!("part: '{}'", excerpt.part_with_note("第一文"));
 }
 
