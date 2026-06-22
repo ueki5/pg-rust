@@ -3,5 +3,5 @@ resolver = "2"
 
 members = [
     "rs001",
-    "pg002",
+    "rs002",
 ]
